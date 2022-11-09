@@ -44,8 +44,8 @@ env:
   CONTAINER_NAME: "guestbook"
   RESOURCE_GROUP: "aksrgtest"
   CLUSTER_NAME: "testaks1"
-  CHART_PATH: "your-chart-path"
-  CHART_OVERRIDE_PATH: "your-chart-override-path"
+  CHART_PATH: "lab5_helm_chart_version1_final/chart/guestbook/"
+  CHART_OVERRIDE_PATH: "lab5_helm_chart_version1_final/chart/guestbook/"
 
 jobs:
   buildImage:
